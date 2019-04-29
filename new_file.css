@@ -41,7 +41,8 @@
         }
         
         .timeContentContainer{
-            width: 80%;
+           list-style:none;
+		width: 80%;
             color: #fff;
             margin: 0rem auto 0 auto;
         }
@@ -84,6 +85,7 @@ a,img{border:0;text-decoration:none;}
 
 .logo{
 	position:absolute;
+	padding:30px;
 	top:20px;
 	left:0;
 	}
