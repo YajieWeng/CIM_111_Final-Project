@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Famous stars</title>
+</head>
+
+<body>
+ <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="new_file9.js" ></script>
+<style type="text/css">
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;text-decoration:none;}
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+*html .clearfix{height:1%}
+
+.solution-list{position:relative;height:412px;z-index:9;width:1200px;margin:0 auto;}
+.short-bar{position:absolute;top:187px;left:50%;margin-left:-15px;width:30px;height:3px;background-color:#fff}
+.active .short-bar{top:201px;background-color:#009dff}
+.solution-list ul li{float:left;width:240px;position:relative;height:412px;transition:all .5s;-moz-transition:all .5s;-webkit-transition:all .5s;-o-transition:all .5s}
+.solution-item-wrapper{width:240px;height:412px;background:url(http://img0.imgtn.bdimg.com/it/u=518041730,1131910306&fm=11&gp=0.jpg) center no-repeat}
+.solution-item-02{background-image:url(http://img1.imgtn.bdimg.com/it/u=3573687297,927521078&fm=11&gp=0.jpg)}
+.solution-item-03{background-image:url(http://img0.imgtn.bdimg.com/it/u=2039342390,3874872578&fm=26&gp=0.jpg)}
+.solution-item-04{background-image:url(http://img0.imgtn.bdimg.com/it/u=1202143403,68062627&fm=15&gp=0.jpg)}
+.solution-item-05{background-image:url(http://img2.imgtn.bdimg.com/it/u=799508550,3051116252&fm=26&gp=0.jpg)}
+.active .solution-item-wrapper{position:absolute;z-index:9;top:-62px;left:-51px;width:341px;height:526px;background:url(img/solution_item_bg_active_01.jpg) no-repeat;-webkit-box-shadow:0 5px 40px rgba(0,0,0,.5);-moz-box-shadow:0 5px 40px rgba(0,0,0,.5);box-shadow:0 5px 40px rgba(0,0,0,.5)}
+
+@media only screen and (max-width:1400px){
+	.product-special-li-5.active .solution-item-wrapper{left:-102px}
+}
+.active .solution-item-01{background-image:url(http://img0.imgtn.bdimg.com/it/u=518041730,1131910306&fm=11&gp=0.jpg) }
+.active .solution-item-02{background-image:url(http://img1.imgtn.bdimg.com/it/u=3573687297,927521078&fm=11&gp=0.jpg)}
+.active .solution-item-03{background-image:url(http://img0.imgtn.bdimg.com/it/u=2039342390,3874872578&fm=26&gp=0.jpg)}
+.active .solution-item-04{background-image:url(http://img0.imgtn.bdimg.com/it/u=1202143403,68062627&fm=15&gp=0.jpg)}
+.active .solution-item-05{background-image:url(http://img2.imgtn.bdimg.com/it/u=799508550,3051116252&fm=26&gp=0.jpg)}
+.solution-list ul li p.solution-title{position:absolute;top:211px;width:100%;text-align:center;color:#fff;font-size:18px;z-index:2}
+.solution-list ul li p.solution-intro{position:absolute;top:282px;left:50%;margin-left:-121px;width:242px;overflow:hidden;color:#eee;line-height:2;z-index:2;opacity:0;filter:alpha(opacity=0);font-size:14px;text-align:justify}
+.solution-list ul li a{display:none;position:absolute;top:452px;left:50%;margin-left:-87px;width:174px;height:40px;line-height:40px;text-align:center;font-size:14px;color:#fff;z-index:2;background-color:#0af}
+.solution-list ul li a:hover{background-color:#0099e5;transition:all .6s;-moz-transition:all .6s;-webkit-transition:all .6s;-o-transition:all .6s}
+.solution-list ul li.active p.solution-title{top:158px;font-size:22px}
+.solution-list ul li.active p.solution-intro{top:230px;opacity:1;filter:alpha(opacity=100)}
+.solution-list ul li.active a{top:388px;display:block}
+
+
+
+</style>
+
+<div style="height:100px;"></div>
+ 
+<div class="solution-list">
+	<ul id="solutionList" class="clearfix">
+		<li>
+			<div class="solution-item-wrapper solution-item-01">
+				<p class="solution-title">Lionel Messi</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">Lionel Messi (born 24 June 1987 in rosario, Santa fe province, Argentina) is an Argentine footballer and forward who plays for fc Barcelona.</p>
+				<a href="#">View details</a>
+			</div>
+		</li>
+		<li>
+			<div class="solution-item-wrapper solution-item-02">
+				<p class="solution-title">Luis Alberto Suarez</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">Luis Alberto Suarez was born in salto, Uruguay on January 24, 1987. He is a Uruguayan football player and a striker.</p>
+				<a href="#">View details</a>
+			</div>
+		</li>
+		<li class="">
+			<div class="solution-item-wrapper solution-item-03">
+				<p class="solution-title">Ronaldinho</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">Ronaldinho, named Ronaldo DE Assis Moreira, was born in Porto alegre, Brazil, on 21 March 1980. He is a Brazilian and Spanish national professional football player.</p>
+				<a href="#">View details</a>
+			</div>
+		</li>
+		<li class="">
+			<div class="solution-item-wrapper solution-item-04">
+				<p class="solution-title">Diego Armando Maradona </p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">Diego Armando Maradona was born on October 30, 1960 in Buenos Aires, Argentina. Maradona is considered to be the greatest football player of the 20th century. He not only possesses the precise footwork of South American players and extremely skilled dribbly skills, but also has an excellent overall view. </p>
+				<a href="#"View details</a>
+			</div>
+		</li>
+		<li class="product-special-li-5 active">
+			<div class="solution-item-wrapper solution-item-05">
+				<p class="solution-title">Neymar da Silva Santos Junior</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">Neymar da Silva Santos Junior was born on February 5, 1992 in Sao Paulo state, Brazil.</p>
+				<a href="#">View details</a>
+			</div>
+		</li>
+	</ul>
+	<div style="padding: 100px;">
+	<a href="index4.html"><p>Go Back</p></a>
+	</div>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	var b = $("#solutionList li");
+	b.mouseover(function() {
+		var e = $(this);
+		b.removeClass("active");
+		e.addClass("active")
+	});
+
+});
+</script>
+
+
+
+</body></html>
